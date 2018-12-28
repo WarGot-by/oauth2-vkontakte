@@ -101,6 +101,8 @@ $provider->friendsGet(23456, $providerAccessToken);        // => \J4k\OAuth2\Cli
 'stats',
 'status',
 'video',
+
+
 ## Contributions
 
-Contributions are very welcome. Please submit a PR
+Contributions are very welcome. Please submit a pull request
