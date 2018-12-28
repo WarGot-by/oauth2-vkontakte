@@ -25,6 +25,7 @@ class User implements ResourceOwnerInterface
     {
         $this->response = $response;
     }
+
     /**
      * @return array
      */
@@ -32,6 +33,7 @@ class User implements ResourceOwnerInterface
     {
         return $this->response;
     }
+
     /**
      * @return integer
      */
@@ -41,10 +43,8 @@ class User implements ResourceOwnerInterface
     }
 
     /**
-     * Helper for getting user data
-     *
-     * @param string $key
-     *
+     * Helper for get user data
+     * @param $key
      * @return mixed|null
      */
     protected function getField($key)
@@ -59,6 +59,7 @@ class User implements ResourceOwnerInterface
     {
         return $this->getField('bdate');
     }
+
     /**
      * @return array [id =>, title => string]
      */
@@ -66,6 +67,7 @@ class User implements ResourceOwnerInterface
     {
         return $this->getField('city');
     }
+
     /**
      * @return array [id =>, title => string]
      */
@@ -73,6 +75,7 @@ class User implements ResourceOwnerInterface
     {
         return $this->getField('country');
     }
+
     /**
      * Short address to user page
      *
@@ -82,6 +85,7 @@ class User implements ResourceOwnerInterface
     {
         return $this->getField('domain');
     }
+
     /**
      * @return string
      */
@@ -89,6 +93,7 @@ class User implements ResourceOwnerInterface
     {
         return $this->getField('first_name');
     }
+
     /**
      * @return int 0|1|2|3 => nobody|resquest_sent|incoming_request|friends
      */
@@ -96,6 +101,7 @@ class User implements ResourceOwnerInterface
     {
         return $this->getField('friend_Status');
     }
+
     /**
      * Has user avatar?
      *
@@ -105,6 +111,7 @@ class User implements ResourceOwnerInterface
     {
         return (bool)$this->getField('has_photo');
     }
+
     /**
      * @return string
      */
@@ -112,6 +119,7 @@ class User implements ResourceOwnerInterface
     {
         return $this->getField('home_town');
     }
+
     /**
      * Detect if current user is freind to this
      *
@@ -121,6 +129,7 @@ class User implements ResourceOwnerInterface
     {
         return (bool)$this->getField('is_friend');
     }
+
     /**
      * @return string
      */
@@ -128,6 +137,7 @@ class User implements ResourceOwnerInterface
     {
         return $this->getField('last_name');
     }
+
     /**
      * @return string
      */
@@ -135,6 +145,7 @@ class User implements ResourceOwnerInterface
     {
         return $this->getField('maiden_name');
     }
+
     /**
      * @return string
      */
@@ -142,6 +153,7 @@ class User implements ResourceOwnerInterface
     {
         return $this->getField('nickname');
     }
+
     /**
      * It's square!
      *
@@ -151,6 +163,7 @@ class User implements ResourceOwnerInterface
     {
         return $this->getField('photo_max');
     }
+
     /**
      * Any sizes
      *
@@ -160,6 +173,7 @@ class User implements ResourceOwnerInterface
     {
         return $this->getField('photo_max_orig');
     }
+
     /**
      * @return string
      */
@@ -167,6 +181,7 @@ class User implements ResourceOwnerInterface
     {
         return $this->getField('screen_name');
     }
+
     /**
      * @return int 1|2 => woman|man
      */
@@ -174,6 +189,7 @@ class User implements ResourceOwnerInterface
     {
         return $this->getField('sex');
     }
+
     /**
      * @return string
      */
@@ -181,6 +197,4 @@ class User implements ResourceOwnerInterface
     {
         return $this->getField('email');
     }
-
-    
 }
