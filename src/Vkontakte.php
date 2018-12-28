@@ -132,10 +132,9 @@ class Vkontakte extends AbstractProvider
     }
 
     /**
-     * @param array $params
      * @return string
      */
-    public function getBaseAccessTokenUrl(array $params)
+    public function getBaseAccessTokenUrl()
     {
         return "$this->baseOAuthUri/access_token";
     }
@@ -219,6 +218,7 @@ class Vkontakte extends AbstractProvider
         if (!empty($additional['user_id'])) {
             $response['id'] = $additional['user_id'];
         }
+        // @TODO Investigate and fix this code smell
 
         return new User($response, $response['id']);
     }
