@@ -9,7 +9,7 @@ This package provides [Vkontakte](https://vk.com) integration for [OAuth2 Client
 ## Installation
 
 ```sh
-composer require j4k/oauth2-vkontakte
+composer require wargot-by/oauth2-vkontakte
 ```
 
 ## Configuration
