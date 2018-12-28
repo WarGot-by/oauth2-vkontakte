@@ -81,7 +81,26 @@ $providerAccessToken = new \League\OAuth2\Client\Token\AccessToken(['access_toke
 $provider->usersGet([1234, 56789], $providerAccessToken); // => \J4k\OAuth2\Client\Provider\User[]
 $provider->friendsGet(23456, $providerAccessToken);        // => \J4k\OAuth2\Client\Provider\User[]
 ```
-
+## Available permissions
+'email',
+'friends',
+'offline',
+'photos',
+'wall',
+'ads',
+'audio',
+'docs',
+'groups',
+'market',
+'messages',
+'nohttps',
+'notes',
+'notifications',
+'notify',
+'pages',
+'stats',
+'status',
+'video',
 ## Contributions
 
 Contributions are very welcome. Please submit a PR
