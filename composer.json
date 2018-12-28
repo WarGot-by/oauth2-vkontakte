@@ -1,5 +1,5 @@
 {
-    "name": "j4k/oauth2-vkontakte",
+    "name": "wargot-by/oauth2-vkontakte",
     "description": "Vkontakte provider for league/oauth2-client",
     "keywords": [
         "league",
@@ -10,11 +10,15 @@
         {
             "name": "Jack Wall",
             "email": "jw@jack.gd"
+        },
+        {
+            "name": "George Paulenka",
+            "email": "wargot@gmail.com"
         }
     ],
     "require": {
         "php" : ">=5.5",
-        "league/oauth2-client": "^1.4"
+        "league/oauth2-client": "^2.0"
     },
     "require-dev": {
         "phpunit/phpunit" : "~4.6",
