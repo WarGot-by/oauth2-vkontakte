@@ -134,7 +134,7 @@ class Vkontakte extends AbstractProvider
     /**
      * @return string
      */
-    public function getBaseAccessTokenUrl()
+    public function getBaseAccessTokenUrl(array $params)
     {
         return "$this->baseOAuthUri/access_token";
     }
