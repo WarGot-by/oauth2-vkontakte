@@ -15,7 +15,7 @@ composer require wargot-by/oauth2-vkontakte
 ## Configuration
 
 ```php
-$provider = new J4k\OAuth2\Client\Provider\Vkontakte([
+$provider = new DmmOne\OAuth2\Client\Provider\Vkontakte([
     'clientId'     => '1234567',
     'clientSecret' => 's0meRe4lLySEcRetC0De',
     'redirectUri'  => 'https://example.org/oauth-endpoint',
@@ -71,15 +71,15 @@ else {
 
 ### Public
 ```php
-$provider->usersGet([1234, 56789]); // => \J4k\OAuth2\Client\Provider\User[]
-$provider->friendsGet(23456);        // => \J4k\OAuth2\Client\Provider\User[]
+$provider->usersGet([1234, 56789]); // => \DmmOne\OAuth2\Client\Provider\User[]
+$provider->friendsGet(23456);        // => \DmmOne\OAuth2\Client\Provider\User[]
 ```
 
 ### With additional data
 ```php
 $providerAccessToken = new \League\OAuth2\Client\Token\AccessToken(['access_token' => 'iAmAccessTokenString']);
-$provider->usersGet([1234, 56789], $providerAccessToken); // => \J4k\OAuth2\Client\Provider\User[]
-$provider->friendsGet(23456, $providerAccessToken);        // => \J4k\OAuth2\Client\Provider\User[]
+$provider->usersGet([1234, 56789], $providerAccessToken); // => \DmmOne\OAuth2\Client\Provider\User[]
+$provider->friendsGet(23456, $providerAccessToken);        // => \DmmOne\OAuth2\Client\Provider\User[]
 ```
 ## Available permissions
 'email',

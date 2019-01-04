@@ -27,12 +27,12 @@
     },
     "autoload": {
         "psr-4": {
-            "J4k\\OAuth2\\Client\\Provider\\": "src"
+            "DmmOne\\OAuth2\\Client\\Provider\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "J4k\\OAuth2\\Client\\Test\\Provider\\": "tests/"
+            "DmmOne\\OAuth2\\Client\\Test\\Provider\\": "tests/"
         }
     }
 }
