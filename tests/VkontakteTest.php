@@ -202,7 +202,7 @@ class VkontakteTest extends \PHPUnit_Framework_TestCase
     }
     public function testUrlAccessToken()
     {
-        $url = $this->provider->getBaseAccessTokenUrl();
+        $url = $this->provider->getBaseAccessTokenUrl(array());
         $uri = parse_url($url);
 
         static::assertEquals('/access_token', $uri['path']);
