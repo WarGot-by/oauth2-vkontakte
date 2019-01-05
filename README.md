@@ -3,8 +3,8 @@
 [![Build Status](https://travis-ci.com/WarGot-by/oauth2-vkontakte.svg?branch=master)](https://travis-ci.com/WarGot-by/oauth2-vkontakte)
 [![Latest Stable Version](https://img.shields.io/packagist/v/j4k/oauth2-vkontakte.svg)](https://packagist.org/packages/WarGot-by/oauth2-vkontakte)
 [![License](https://img.shields.io/packagist/l/j4k/oauth2-vkontakte.svg)](https://packagist.org/packages/WarGot-by/oauth2-vkontakte)
-[![Code Coverage](https://img.shields.io/scrutinizer/WarGot-by/oauth2-vkontakte/httplug.svg?style=flat-square)](https://scrutinizer-ci.com/g/php-http/httplug)
-[![Quality Score](https://img.shields.io/scrutinizer/g/WarGot-by/oauth2-vkontakte.svg?style=flat-square)](https://scrutinizer-ci.com/g/php-http/httplug)
+[![Code Coverage](https://img.shields.io/scrutinizer/WarGot-by/oauth2-vkontakte/httplug.svg?style=flat-square)](https://scrutinizer-ci.com/g/WarGot-by/oauth2-vkontakte)
+[![Quality Score](https://img.shields.io/scrutinizer/g/WarGot-by/oauth2-vkontakte.svg?style=flat-square)](https://scrutinizer-ci.com/g/WarGot-by/oauth2-vkontakte)
 [![Email](https://img.shields.io/badge/github@dmm.one-blue.svg?style=flat-square)](mailto:tgithub@dmm.one)
 
 This package provides [Vkontakte](https://vk.com) integration for [OAuth2 Client](https://github.com/thephpleague/oauth2-client) by the League.
