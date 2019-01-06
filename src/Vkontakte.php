@@ -1,6 +1,6 @@
 <?php
 
-namespace DmmOne\OAuth2\Client\Provider;
+namespace J4k\OAuth2\Client\Provider;
 
 use League\OAuth2\Client\Provider\AbstractProvider;
 use League\OAuth2\Client\Provider\Exception\IdentityProviderException;

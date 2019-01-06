@@ -17,7 +17,7 @@
             "email": "wargot@gmail.com"
         }
     ],
-    "version": "2.0.1",
+    "version": "2.0.2",
     "require": {
         "php": "^5.6|^7.0",
         "league/oauth2-client": "^2.0",
@@ -29,12 +29,12 @@
     },
     "autoload": {
         "psr-4": {
-            "DmmOne\\OAuth2\\Client\\Provider\\": "src"
+            "J4k\\OAuth2\\Client\\Provider\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "DmmOne\\OAuth2\\Client\\Test\\Provider\\": "tests/"
+            "J4k\\OAuth2\\Client\\Test\\Provider\\": "tests/"
         }
     }
 }

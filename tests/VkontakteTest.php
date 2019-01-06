@@ -1,9 +1,9 @@
 <?php
 
-namespace DmmOne\OAuth2\Client\Test\Provider;
+namespace J4k\OAuth2\Client\Test\Provider;
 
 use GuzzleHttp\Psr7\Response;
-use DmmOne\OAuth2\Client\Provider\Vkontakte as Provider;
+use J4k\OAuth2\Client\Provider\Vkontakte as Provider;
 use League\OAuth2\Client\Provider\Exception\IdentityProviderException;
 use League\OAuth2\Client\Token\AccessToken;
 use Mockery as m;

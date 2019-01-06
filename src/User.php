@@ -1,13 +1,13 @@
 <?php
 
-namespace DmmOne\OAuth2\Client\Provider;
+namespace J4k\OAuth2\Client\Provider;
 
 use League\OAuth2\Client\Provider\ResourceOwnerInterface;
 
 /**
  * @see     https://vk.com/dev/fields
  *
- * @package DmmOne\OAuth2\Client\Provider
+ * @package J4k\OAuth2\Client\Provider
  */
 class User implements ResourceOwnerInterface
 {
